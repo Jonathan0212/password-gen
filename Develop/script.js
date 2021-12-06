@@ -1,7 +1,7 @@
 // Assignment code here
-
-
-// Get references to the #generate element
+var charString = ['ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklnmopqrstuvwxyz0123456789"~!@#$%^&*()-_=+'];
+var userInput = [];
+var password = "";
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
