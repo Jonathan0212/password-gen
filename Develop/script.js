@@ -32,5 +32,35 @@ number = confirm("Click OK to confirm numeral characters");
 symbol = confirm('Click OK to confirm numeral characters ("~!@#$%^&*()-_=+)');
 }
 
+
+if(upper) {
+  userInput.push(charString[0]);
+}
+
+if(lower) {
+  userInput.push(charString[1]);
+}
+
+if(number) {
+  userInput.push(charString[2]);
+}
+
+if(symbol) {
+  userInput.push(charString[3]);
+}
+
+var password='';
+
+//to get array of characters
+userInput=userInput.join('').split('');
+
+for(var i=0; i < characterLength; i++) {
+  var index = (Math.floor(Math.random() * userInput.length));
+  password= password + userInput [index]
+}
+
+return password
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
