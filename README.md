@@ -4,3 +4,5 @@ This application randomly generates a password based on upper case lettering, lo
 
 ![Screenshot](/Develop/Screenshot_1.png)
 
+## Link to published site!
+[Link](https://jonathan0212.github.io/password-gen/)
